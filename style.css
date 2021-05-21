@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, rgb(37, 237, 255) 0%, rgb(235, 21, 213) 100%); 
+    padding-top: 10%;
+}
+
+.regiContainer{
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@40;600;700&display=swap');
+
+.title{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 30px;
+    color: rgba(49,38,33,255);
+}
+
+.form{
+    max-width: 300px;
+    margin: auto;
+}
+
+.inputText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.inputTextContainer{
+    margin-top: 20px;
+
+}
+input,select,textarea{
+    width: 97%;
+    border: none;
+    border-bottom: 2px solid rgba(126, 121, 121, 0.342);
+    padding: 10px;
+}
+select{
+    width: 104%;
+}
+::placeholder{
+    opacity: 0.4;
+    font-size: 17px;
+}
+
+select,option{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+textarea{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
+    font-size: 17px; 
+}
+
+button{
+    margin-top: 12px;
+    background-image: linear-gradient(to right, rgba(241,9,253,255),rgba(132,105,239,255), rgba(13,209,225,255));
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 40px;
+    font-weight: bolder;
+    color: white;
+}
